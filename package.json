@@ -1,0 +1,18 @@
+{
+  "name": "pc-lan-appliance-control-gui",
+  "version": "0.1.0-alpha.1",
+  "private": false,
+  "type": "module",
+  "description": "PC・LAN・家電管理GUI closed alpha",
+  "scripts": {
+    "test": "node tests/product.test.mjs",
+    "validate": "node src/cli/index.js --input samples/representative-suite.json --output dist/pc-lan-appliance-control-gui-representative-report.json",
+    "build": "node scripts/build-docs-zip.mjs"
+  },
+  "keywords": [
+    "WindowsApp",
+    "closed-alpha",
+    "qcds"
+  ],
+  "license": "MIT"
+}
