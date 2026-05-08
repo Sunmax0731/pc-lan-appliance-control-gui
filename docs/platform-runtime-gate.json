@@ -1,0 +1,11 @@
+{
+  "product": "pc-lan-appliance-control-gui",
+  "title": "PC・LAN・家電管理GUI",
+  "domain": "WindowsApp",
+  "ideaNo": 10,
+  "platformType": "windows-local-app",
+  "expectedPublicTarget": "GitHub Release / BOOTH",
+  "browser": null,
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
